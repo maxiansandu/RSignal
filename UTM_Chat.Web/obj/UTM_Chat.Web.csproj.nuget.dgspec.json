@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nicu/Documents/chat/UTM_Chat.Web/UTM_Chat.Web.csproj": {}
+  },
+  "projects": {
+    "/home/nicu/Documents/chat/Chat.Aplication/Chat.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicu/Documents/chat/Chat.Aplication/Chat.Aplication.csproj",
+        "projectName": "Chat.Aplication",
+        "projectPath": "/home/nicu/Documents/chat/Chat.Aplication/Chat.Aplication.csproj",
+        "packagesPath": "/home/nicu/.nuget/packages/",
+        "outputPath": "/home/nicu/Documents/chat/Chat.Aplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj": {
+                "projectPath": "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj"
+              },
+              "/home/nicu/Documents/chat/Chat.Repository/Chat.Repository.csproj": {
+                "projectPath": "/home/nicu/Documents/chat/Chat.Repository/Chat.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicu/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj",
+        "projectName": "Chat.Domain",
+        "projectPath": "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj",
+        "packagesPath": "/home/nicu/.nuget/packages/",
+        "outputPath": "/home/nicu/Documents/chat/Chat.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicu/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicu/Documents/chat/Chat.Repository/Chat.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicu/Documents/chat/Chat.Repository/Chat.Repository.csproj",
+        "projectName": "Chat.Repository",
+        "projectPath": "/home/nicu/Documents/chat/Chat.Repository/Chat.Repository.csproj",
+        "packagesPath": "/home/nicu/.nuget/packages/",
+        "outputPath": "/home/nicu/Documents/chat/Chat.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj": {
+                "projectPath": "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Evolve": {
+              "target": "Package",
+              "version": "[3.4.0-alpha1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicu/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicu/Documents/chat/UTM_Chat.Web/UTM_Chat.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicu/Documents/chat/UTM_Chat.Web/UTM_Chat.Web.csproj",
+        "projectName": "UTM_Chat.Web",
+        "projectPath": "/home/nicu/Documents/chat/UTM_Chat.Web/UTM_Chat.Web.csproj",
+        "packagesPath": "/home/nicu/.nuget/packages/",
+        "outputPath": "/home/nicu/Documents/chat/UTM_Chat.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/nicu/Documents/chat/Chat.Aplication/Chat.Aplication.csproj": {
+                "projectPath": "/home/nicu/Documents/chat/Chat.Aplication/Chat.Aplication.csproj"
+              },
+              "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj": {
+                "projectPath": "/home/nicu/Documents/chat/Chat.Domain/Chat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Evolve": {
+              "target": "Package",
+              "version": "[3.4.0-alpha1, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicu/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

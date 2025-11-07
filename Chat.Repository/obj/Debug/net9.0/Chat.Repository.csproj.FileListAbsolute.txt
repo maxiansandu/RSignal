@@ -1,0 +1,16 @@
+/home/nicu/Documents/chat/Chat.Repository/bin/Debug/net9.0/Chat.Repository.deps.json
+/home/nicu/Documents/chat/Chat.Repository/bin/Debug/net9.0/Chat.Repository.dll
+/home/nicu/Documents/chat/Chat.Repository/bin/Debug/net9.0/Chat.Repository.pdb
+/home/nicu/Documents/chat/Chat.Repository/bin/Debug/net9.0/Chat.Domain.dll
+/home/nicu/Documents/chat/Chat.Repository/bin/Debug/net9.0/Chat.Domain.pdb
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.csproj.AssemblyReference.cache
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.AssemblyInfoInputs.cache
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.AssemblyInfo.cs
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.csproj.CoreCompileInputs.cache
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.sourcelink.json
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Rep.4BADE94C.Up2Date
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.dll
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/refint/Chat.Repository.dll
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/Chat.Repository.pdb
+/home/nicu/Documents/chat/Chat.Repository/obj/Debug/net9.0/ref/Chat.Repository.dll

@@ -1,0 +1,38 @@
+﻿@model UTM_Chat.Web.Models.BallPositionViewModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<<div id="ball" style="width:50px;height:50px;background:red;position:absolute;top:100px;left:100px;border-radius:50%;"></div>
+<<div id="ball2" style="width:50px;height:50px;background:#12ff00;position:absolute;top:200px;left:200px;border-radius:50%;"></div>
+
+@section Scripts {
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+  <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/ballHub")
+            .build();
+
+        const ball = document.getElementById("ball");
+        const ball2 = document.getElementById("ball2");
+        let x = 100, y = 100;
+        let x2= 200, y2 = 200;
+
+        connection.on("UpdateBall", (newX, newY, newX2, newY2) => {
+            x = newX;
+            y = newY;
+            x2 = newX2;
+            y2 = newY2;
+            
+            ball.style.left = x + "px";
+            ball.style.top = y + "px";
+            ball2.style.left = x2 + "px";
+            ball2.style.top = y2 + "px";
+        });
+
+        connection.start().then(() => {
+            window.addEventListener("keydown", e => {
+                connection.invoke("Move", e.key);
+            });
+        });
+    </script>
+}

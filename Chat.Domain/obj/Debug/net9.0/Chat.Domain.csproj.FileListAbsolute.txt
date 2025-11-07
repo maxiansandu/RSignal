@@ -1,0 +1,13 @@
+/home/nicu/Documents/chat/Chat.Domain/bin/Debug/net9.0/Chat.Domain.deps.json
+/home/nicu/Documents/chat/Chat.Domain/bin/Debug/net9.0/Chat.Domain.dll
+/home/nicu/Documents/chat/Chat.Domain/bin/Debug/net9.0/Chat.Domain.pdb
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.AssemblyInfoInputs.cache
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.AssemblyInfo.cs
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.csproj.CoreCompileInputs.cache
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.sourcelink.json
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.dll
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/refint/Chat.Domain.dll
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.pdb
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/ref/Chat.Domain.dll
+/home/nicu/Documents/chat/Chat.Domain/obj/Debug/net9.0/Chat.Domain.csproj.AssemblyReference.cache
