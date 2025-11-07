@@ -1,23 +1,23 @@
 # Etapa 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /chat
+WORKDIR /src
 
-# Copiem fișierele proiectului
-COPY *.csproj ./
-RUN dotnet restore
+# Copiem tot codul sursă
+COPY . .
 
-# Copiem restul codului
-COPY . ./
-RUN dotnet publish -c Release -o out
+# Restaurăm dependințele folosind fișierul soluției
+RUN dotnet restore "UTM_Chat.sln"
+
+# Compilăm proiectul Web
+RUN dotnet publish "UTM_Chat.Web/UTM_Chat.Web.csproj" -c Release -o /app/out
 
 # Etapa 2: Runtime (imagine mai mică)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-WORKDIR /chat
+WORKDIR /app
 COPY --from=build /app/out .
 
-# Expune portul pentru host
+# Port implicit (Render/Fly.io)
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
-# Punctul de start al aplicației
-ENTRYPOINT ["dotnet", "chat.dll"]
+ENTRYPOINT ["dotnet", "UTM_Chat.Web.dll"]
