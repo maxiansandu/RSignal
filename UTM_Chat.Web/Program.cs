@@ -4,30 +4,12 @@ using EvolveDb;
 using MySqlConnection = MySql.Data.MySqlClient.MySqlConnection;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-using (var connection = new MySqlConnection(connectionString))
-{
-    var evolve = new Evolve(connection, msg => Console.WriteLine(msg))
-    {
-        Locations = new[] { "/home/nicu/Documents/chat/Chat.Repository/Migrations" },
-        IsEraseDisabled = true,
-    };
 
-    try
-    {
-        evolve.Migrate();
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine("Database migration failed.", ex);
-        throw;
-    }
-}
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))); var app = builder.Build();
+
+    var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
